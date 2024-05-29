@@ -62,5 +62,9 @@ VALUES ("44", "Mario", "Rossi", "1993-10-21", "MHIODE93F21G439Z", "2020-10-02", 
 
 10.	Cambiare il numero dell’ufficio del professor Pietro Rizzo in 126
 
+UPDATE `teachers`
+SET `office_number` = "126"
+WHERE `name` LIKE "Pietro" AND `surname` LIKE "Rizzo"; 
+
 
 11.	Eliminare dalla tabella studenti il record creato precedentemente al punto 9
