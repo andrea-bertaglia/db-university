@@ -68,3 +68,6 @@ WHERE `name` LIKE "Pietro" AND `surname` LIKE "Rizzo";
 
 
 11.	Eliminare dalla tabella studenti il record creato precedentemente al punto 9
+
+DELETE FROM `students`
+WHERE `name` = "Mario" AND `surname` = "Rossi";
